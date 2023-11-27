@@ -65,7 +65,7 @@ source "proxmox" "ubuntu-server-jammy" {
     # VM Network Settings
     network_adapters {
         model = "virtio"
-        bridge = "vmbr0"
+        bridge = "vmbr1"
         firewall = "false"
     } 
 
